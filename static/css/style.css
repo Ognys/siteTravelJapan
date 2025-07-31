@@ -56,6 +56,13 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    transition: .2s linear;
+    z-index: 10;
+}
+
+.header_active {
+    background: #0E1D28;
+    padding-bottom: 20px;
 }
 
 .header-wrapper {
@@ -364,3 +371,210 @@ img {
 
 /* Places styles end */
 
+
+/* Tours styles start */
+
+.tour {
+    margin-bottom: 139px;
+}
+
+.tours-tour {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+    width: 360px;
+}
+
+.tour-desc {
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour-link {
+    font-weight: 400;
+    line-height: 24px;
+    color: #006DFE;
+    padding-right: 59px;
+    background: url('../img/svg/Strelka.svg') no-repeat top 50% right;
+    transition: .15s all;
+}
+
+.tour-link:hover, .tour-link:focus, .tour-link:active {
+    opacity: 0.65;
+}
+
+.tour-info {
+    padding-left: 47px;
+}
+
+/* Tours styles end */
+
+
+/* Top styles start */
+
+.top {
+    margin-bottom: 86px;
+}
+
+.top-title {
+    margin-bottom: 54px;
+}
+
+.top-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+
+.top-card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 25px;
+}
+
+.top-card-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    margin: 0 auto 0 0;
+}
+
+.top-card-likes {
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    padding-right: 20px;
+    background: url('../img/svg/like.svg') no-repeat right top 50%;
+    margin-right: 14px;
+}
+
+.top-card-comm {
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    padding-right: 23px;
+    background: url('../img/svg/comm.svg') no-repeat right top 50%;
+}
+
+.top-card-desc {
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+
+.top-card-link {
+    width: 118px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+    background-color: #006DFE;
+    padding: 12px 19px 11px 19px;
+    transition: .2s all;
+    margin: auto 0 0 0;
+}
+
+.top-card-link:hover, .top-card-link:focus, .top-card-link:active {
+    background-color: #1a74eb;
+}
+
+/* Top styles end */
+
+
+/* Video styles start */
+
+.videos {
+    width: 100%;
+}
+
+.videos-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-item {
+    padding-top: 56.25%;
+}
+
+.video-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Video styles end */
+
+
+/* Footer styles start */
+
+.footer {
+    background: #0E1D28;
+    padding: 119px 0;
+}
+
+.footer-item {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-menu-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.footer-menu-link {
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+
+.footer-menu-link:hover, .footer-menu-link:focus, .footer-menu-link:active {
+    opacity: .75;
+} 
+
+
+
+/* Footer styles end */
